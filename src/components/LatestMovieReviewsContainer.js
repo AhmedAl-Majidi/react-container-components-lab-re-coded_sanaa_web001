@@ -22,7 +22,7 @@ const URL = 'https://api.nytimes.com/svc/movies/v2/reviews/all.json?'
     render() {
         return (
             <div>
-                <MovieReviews reviews = {this.state.movieReviews}/>
+                <MovieReviews reviews = {this.state.reviews}/>
             </div>
         )
     }
