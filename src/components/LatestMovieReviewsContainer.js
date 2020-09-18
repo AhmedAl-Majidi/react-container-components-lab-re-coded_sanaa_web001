@@ -16,7 +16,7 @@ const URL = 'https://api.nytimes.com/svc/movies/v2/reviews/all.json?'
          fetch(URL)
          .then( res => res.json() )
          .then( data => this.setState({
-            reviews : data.results
+            reviews : data
          }))
      }
     render() {
