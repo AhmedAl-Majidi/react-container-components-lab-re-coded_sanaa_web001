@@ -1,9 +1,9 @@
 import React from 'react'
 
-const MovieReviews = (props) => {
+const MovieReviews = ({reviews}) => {
     return (
         <div className="review-list">
-            {props.reviews.map( ele => <p> {ele} </p>) }
+            {reviews.map( ele => <p> {ele} </p>) }
         </div>
     )
 }
